@@ -160,7 +160,7 @@ void lcdPrintValue_(uint16_t x, int8_t dig, uint16_t div, bool mili, bool minus)
 
 }
 
-void lcdPrintTime(uint16_t timeSec)
+void lcdPrintTime(uint32_t timeSec)
 {
     lcdPrintUnsigned(timeSec/60, 3, '0');
     lcdPrintChar(':');
