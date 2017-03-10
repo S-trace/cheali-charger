@@ -33,11 +33,11 @@ namespace Monitor {
     void powerOn();
     void powerOff();
 
-    uint16_t getTimeSec();
-    uint16_t getTotalBalanceTimeSec();
-    uint16_t getTotalChargeDischargeTimeSec();
+    uint32_t getTimeSec();
+    uint32_t getTotalBalanceTimeSec();
+    uint32_t getTotalChargeDischargeTimeSec();
     uint16_t getTotalChargeDischargeTimeMin();
-    uint16_t getETATime();
+    uint32_t getETATime();
 
     uint8_t getChargeProcent();
 
