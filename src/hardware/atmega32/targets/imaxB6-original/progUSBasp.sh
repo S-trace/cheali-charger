@@ -5,12 +5,12 @@ set -x
 #maybe you should change this:
 #TTY=-P/dev/ttyUSB0
 TTY=
-PROGRAMMER=usbasp
+PROGRAMMER=ch341a
 #---
 
 PARTNO=atmega32
 
-HEX=`ls *.hex | head -1`
+HEX=`ls *.hex | tail -1`
 echo "HEX=$HEX"
 echo "TTY=$TTY"
 
